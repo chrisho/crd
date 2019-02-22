@@ -1,0 +1,8 @@
+apiVersion: "my.example.com/v1alpha1"
+kind: "Redis"
+metadata:
+  name: "my-redis"
+  namespace: "default"
+spec:
+  deploymentName: "redis"
+  replicas: 1
